@@ -7,10 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="picture"></div>
+    <div class="picture"><img src="odin-lined.png" alt="Line art of the odin project logo"></div>
     <div class="main">
-        <div class="about"></div>
-        <div class="form"></div>
+        <div class="about">          
+            <p>This, is totally not a real service! but it looks pretty swanky if i do say so myself</p>
+            <p>so sign up today!(your info goes nowhere)</p></div>
+        <div class="form">
+            <form action="https://httpbin.org/post" method="post">
+
+                <label for="firstName">First Name</label>
+                <input type="text" name="first" id="firstName">
+
+                <label for="lastName">Last Name</label>
+                <input type="text" name="Last" id="lastName">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone">
+
+                <label for="password">password</label>
+                <input type="password" name="password" id="password">
+                <label for="passwordConfirm">Confirm Password</label>
+                <input type="password" name="passwordConfirm" id="passwordConfirm">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
