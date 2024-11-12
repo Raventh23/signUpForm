@@ -1,0 +1,29 @@
+html, body{
+    display: flex;
+    margin: 0;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+.picture{
+    display: flex;
+    background-image: url("sebastian-unrau.jpg");
+    min-width: fit-content;
+    max-width: 40%;
+    align-items: center;
+    flex-shrink: 2;
+}
+#logo{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    font-size: 5rem;
+    padding-right: 1vh;
+
+}
+#logo img{
+    width: 30%;
+
+    object-fit: contain;
+}
