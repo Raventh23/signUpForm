@@ -5,10 +5,12 @@ html, body{
     height: 100%;
     width: 100%;
 }
+.main{
+    background-color: rgb(109, 119, 109);
+}
 .picture{
     display: flex;
     background-image: url("sebastian-unrau.jpg");
-    min-width: fit-content;
     max-width: 40vw;
     align-items: center;
     flex-shrink: 2;
@@ -34,4 +36,19 @@ html, body{
     max-height: 30vh;
     font-size: 2rem;
     padding: 2vw;
+}
+form{
+padding: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: teal;
+    min-height: 30vh;
+
+}
+form input{
+    height: 1.2rem;
+}
+form > *, form >*>*{
+    display: flex;
+    flex-grow: 1;
 }

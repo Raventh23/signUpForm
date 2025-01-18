@@ -19,23 +19,29 @@
             <p>so sign up today!(your info goes nowhere)</p></div>
         <div class="form">
             <form action="https://httpbin.org/post" method="post">
+                <div id="names">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="first" id="firstName">
+                
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="Last" id="lastName">
+                </div>
+                
+                <div id="contact">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
 
-                <label for="firstName">First Name</label>
-                <input type="text" name="first" id="firstName">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone">
+                </div>
 
-                <label for="lastName">Last Name</label>
-                <input type="text" name="Last" id="lastName">
+                <div id="pass">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password">
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-
-                <label for="phone">Phone Number</label>
-                <input type="number" name="phone" id="phone">
-
-                <label for="password">password</label>
-                <input type="password" name="password" id="password">
-                <label for="passwordConfirm">Confirm Password</label>
-                <input type="password" name="passwordConfirm" id="passwordConfirm">
+                    <label for="passwordConfirm">Confirm Password</label>
+                    <input type="password" name="passwordConfirm" id="passwordConfirm">
+                </div>
                 <button type="submit">Submit</button>
             </form>
         </div>
