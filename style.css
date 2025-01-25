@@ -14,7 +14,8 @@ body {
     flex-direction: row;
     background-color: rgb(1, 93, 93);
     height: 100vh;
-    width: 98vw;
+    width: 100vw;
+    overflow: hidden;
 }
 .picture {
     background-image: url(sebastian-unrau.jpg);
@@ -22,7 +23,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-right: 10px;
 }
 #logo{
     justify-content: center;
@@ -35,7 +35,7 @@ body {
 #logo img{
     max-height: 75%;
     width: auto;
-    padding: 2vw;
+    padding-left: 2vw;
 }
 #logo p{
     font-family: 'Norse-Bold';
@@ -49,10 +49,36 @@ body {
 }
 .about{
     flex-direction: column;
+    width: 100%;
+    padding-left: 5px;
 }
 .about p{
     font-family: 'helvetica';
     font-size: 2rem;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+}
+form{
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    max-height: 20vh;
+    width: 100%;
+    padding-left: 1vw;
+}
+form div{
+    flex-direction: column;
+    max-width: 33%;
+    gap: 1vw;
+    max-height: auto;
+}
+form input{
+    max-height: 1.4rem;
+    max-width: 95%;
+}
+form button{
+    margin: 1vh;
+    padding: 0.5vh 5vh;
 }
