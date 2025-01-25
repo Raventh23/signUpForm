@@ -77,8 +77,12 @@ form div{
 form input{
     max-height: 1.4rem;
     max-width: 95%;
+    outline: none;
 }
 form button{
     margin: 1vh;
     padding: 0.5vh 5vh;
+}
+input:focus{
+    border: 5px solid green;
 }

@@ -21,26 +21,26 @@
             <form action="https://httpbin.org/post" method="post">
                 <div id="names">
                     <label for="firstName">First Name</label>
-                    <input type="text" name="first" id="firstName">
+                    <input type="text" name="first" id="firstName" required>
                 
                     <label for="lastName">Last Name</label>
-                    <input type="text" name="Last" id="lastName">
+                    <input type="text" name="Last" id="lastName" required>
                 </div>
                 
                 <div id="contact">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
 
                     <label for="phone">Phone Number</label>
-                    <input type="number" name="phone" id="phone">
+                    <input type="number" name="phone" id="phone" required>
                 </div>
 
                 <div id="pass">
                     <label for="password">password</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required>
 
                     <label for="passwordConfirm">Confirm Password</label>
-                    <input type="password" name="passwordConfirm" id="passwordConfirm">
+                    <input type="password" name="passwordConfirm" id="passwordConfirm" required>
                 </div>
                 <button type="submit">Submit</button>
             </form>
