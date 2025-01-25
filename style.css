@@ -44,3 +44,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+.main{
+    flex-direction: column;
+}
+.about{
+    flex-direction: column;
+}
+.about p{
+    font-family: 'helvetica';
+    font-size: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
